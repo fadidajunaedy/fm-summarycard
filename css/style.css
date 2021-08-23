@@ -170,5 +170,14 @@ section .card .card-container .cancel:hover {
   section .card .card-container h2 {
     margin-bottom: 20%;
   }
+  section .card .card-container p {
+    margin-bottom: 20%;
+  }
+  section .card .card-container .detail {
+    margin-bottom: 20%;
+  }
+  section .card .card-container button {
+    margin-bottom: 20%;
+  }
 }
 /*# sourceMappingURL=style.css.map */
