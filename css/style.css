@@ -66,12 +66,16 @@ section .card .card-container {
 section .card .card-container h2 {
   font-size: 20px;
   font-weight: 700;
+  color: #1f2f56;
+  margin-bottom: 16px;
 }
 
 section .card .card-container p {
   font-size: 14px;
   font-size: 500;
+  color: #7280a7;
   text-align: center;
+  margin-bottom: 16px;
 }
 
 section .card .card-container .detail {
@@ -86,6 +90,7 @@ section .card .card-container .detail {
   background-color: #f5f7ff;
   border-radius: 12px;
   padding: 18px;
+  margin-bottom: 16px;
 }
 
 section .card .card-container .detail img {
@@ -100,17 +105,40 @@ section .card .card-container .detail ul li[class="title"] {
   list-style: none;
   font-size: 14px;
   font-weight: 700;
+  color: #1f2f56;
 }
 
 section .card .card-container .detail ul li[class="price"] {
   list-style: none;
   font-size: 14px;
   font-weight: 400;
+  color: #7280a7;
 }
 
 section .card .card-container .detail a {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
   margin-left: auto;
+}
+
+section .card .card-container button {
+  width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 8px;
+  padding: 14px 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: white;
+  background-color: #3829e0;
+  cursor: pointer;
+  margin-bottom: 16px;
+}
+
+section .card .card-container a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  color: #7280a7;
 }
 /*# sourceMappingURL=style.css.map */

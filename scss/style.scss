@@ -54,11 +54,16 @@ section {
             h2 {
                 font-size: 20px;
                 font-weight: 700;
+                color: $neutralDarkBlue;
+                margin-bottom: 16px;
+
             }
             p {
                 font-size: 14px;
                 font-size: 500;
+                color: $neutralDesaturated;
                 text-align: center;
+                margin-bottom: 16px;
             }
 
             .detail {
@@ -69,6 +74,7 @@ section {
                 background-color: $neutralPale;
                 border-radius: 12px;
                 padding: 18px;
+                margin-bottom: 16px;
 
                 img {
                     width: 36px;
@@ -79,18 +85,41 @@ section {
                         list-style: none;
                         font-size: 14px;
                         font-weight: 700;
+                        color: $neutralDarkBlue;
+                        
                     }
                     li[class="price"] {
                         list-style: none;
                         font-size: 14px;
                         font-weight: 400;
+                        color: $neutralDesaturated;
                     }
                 }
                 a {
-                    font-size: 14px;
+                    font-size: 12px;
                     font-weight: 500;
                     margin-left: auto;
                 }
+            }
+            button {
+                width: 100%;
+                height: auto;
+                border: none;
+                border-radius: 8px;
+                padding: 14px 0;
+                font-size: 12px;
+                font-weight: 700;
+                color: white;
+                background-color: $primaryBright;
+                cursor: pointer;
+                margin-bottom: 16px;
+            }
+
+            a {
+                text-decoration: none;
+                font-size: 12px;
+                font-weight: 500;
+                color: $neutralDesaturated;
             }
         }
     }
