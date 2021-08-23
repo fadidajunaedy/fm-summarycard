@@ -167,5 +167,8 @@ section .card .card-container .cancel:hover {
     width: 320px;
     height: 80vh;
   }
+  section .card .card-container h2 {
+    margin-bottom: 20%;
+  }
 }
 /*# sourceMappingURL=style.css.map */

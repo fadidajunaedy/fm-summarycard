@@ -148,6 +148,12 @@ section {
         .card {
             width: 320px;
             height: 80vh;
+
+            .card-container {
+                h2 {
+                    margin-bottom: 20%;
+                }
+            }
         }
     }
 }
