@@ -168,16 +168,16 @@ section .card .card-container .cancel:hover {
     height: 80vh;
   }
   section .card .card-container h2 {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
   }
   section .card .card-container p {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
   }
   section .card .card-container .detail {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
   }
   section .card .card-container button {
-    margin-bottom: 20%;
+    margin-bottom: 10%;
   }
 }
 /*# sourceMappingURL=style.css.map */
