@@ -8,7 +8,6 @@
 
 body {
   font-family: 'Red Hat Display', sans-serif;
-  font-size: 16px;
 }
 
 section {
@@ -36,6 +35,8 @@ section .card {
   border: none;
   border-radius: 24px;
   overflow: hidden;
+  -webkit-box-shadow: 0 2px 18px -4px rgba(56, 41, 224, 0.5);
+          box-shadow: 0 2px 18px -4px rgba(56, 41, 224, 0.5);
 }
 
 section .card .header {
@@ -118,7 +119,13 @@ section .card .card-container .detail ul li[class="price"] {
 section .card .card-container .detail a {
   font-size: 12px;
   font-weight: 500;
+  color: #3829e0;
   margin-left: auto;
+}
+
+section .card .card-container .detail a:hover {
+  color: rgba(56, 41, 224, 0.8);
+  text-decoration: none;
 }
 
 section .card .card-container button {
@@ -133,12 +140,32 @@ section .card .card-container button {
   background-color: #3829e0;
   cursor: pointer;
   margin-bottom: 16px;
+  -webkit-box-shadow: 0 4px 12px -2px rgba(56, 41, 224, 0.5);
+          box-shadow: 0 4px 12px -2px rgba(56, 41, 224, 0.5);
 }
 
-section .card .card-container a {
+section .card .card-container button:hover {
+  background-color: rgba(56, 41, 224, 0.8);
+}
+
+section .card .card-container .cancel {
   text-decoration: none;
   font-size: 12px;
   font-weight: 500;
   color: #7280a7;
+}
+
+section .card .card-container .cancel:hover {
+  color: #1f2f56;
+}
+
+@media screen and (max-width: 576px) {
+  section {
+    background-image: url("/images/pattern-background-mobile.svg");
+  }
+  section .card {
+    width: 320px;
+    height: 80vh;
+  }
 }
 /*# sourceMappingURL=style.css.map */

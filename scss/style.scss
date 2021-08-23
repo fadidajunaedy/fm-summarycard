@@ -14,7 +14,6 @@ $neutralDarkBlue: hsl(223, 47%, 23%);
 
 body {
     font-family: 'Red Hat Display', sans-serif;
-    font-size: 16px;
 }
 
 section {
@@ -35,6 +34,8 @@ section {
         border: none;
         border-radius: 24px;
         overflow: hidden;
+        box-shadow: 0 2px 18px -4px rgba(56, 41, 224, 0.5);
+
 
         .header {
             width: 100%;
@@ -98,7 +99,13 @@ section {
                 a {
                     font-size: 12px;
                     font-weight: 500;
+                    color: $primaryBright;
                     margin-left: auto;
+
+                    &:hover {
+                        color: hsla(245, 75%, 52%, 0.8);
+                        text-decoration: none;
+                    }
                 }
             }
             button {
@@ -113,14 +120,34 @@ section {
                 background-color: $primaryBright;
                 cursor: pointer;
                 margin-bottom: 16px;
+                box-shadow: 0 4px 12px -2px rgba(56, 41, 224, 0.5);
+
+                &:hover {
+                    background-color: hsla(245, 75%, 52%, 0.8);
+                }
             }
 
-            a {
+            .cancel {
                 text-decoration: none;
                 font-size: 12px;
                 font-weight: 500;
                 color: $neutralDesaturated;
+
+                &:hover {
+                    color: $neutralDarkBlue;
+                }
             }
+        }
+    }
+}
+
+@media screen and (max-width: 576px) {
+    section {
+        background-image: url('/images/pattern-background-mobile.svg');
+
+        .card {
+            width: 320px;
+            height: 80vh;
         }
     }
 }
