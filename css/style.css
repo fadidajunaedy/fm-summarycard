@@ -69,7 +69,7 @@ section .card .card-container h2 {
 }
 
 section .card .card-container p {
-  font-size: 16px;
+  font-size: 14px;
   font-size: 500;
   text-align: center;
 }
@@ -81,5 +81,36 @@ section .card .card-container .detail {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: #f5f7ff;
+  border-radius: 12px;
+  padding: 18px;
+}
+
+section .card .card-container .detail img {
+  width: 36px;
+}
+
+section .card .card-container .detail ul {
+  margin-left: 12px;
+}
+
+section .card .card-container .detail ul li[class="title"] {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+section .card .card-container .detail ul li[class="price"] {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+section .card .card-container .detail a {
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: auto;
 }
 /*# sourceMappingURL=style.css.map */
